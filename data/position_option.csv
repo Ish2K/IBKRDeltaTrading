@@ -1,0 +1,4 @@
+time,reqId,type,account,symbol,secType,currency,contractRight,lastTradeDateOrContractMonth,strike,position,avgCost,deltaNeutralContract,delta
+2023-10-04 11:14:16,2,tickOptionComputation,DU7224701,NFLX,OPT,USD,C,20231020,382.5,-2.0,1743.94435,,0.48845843834040054
+2023-10-04 11:14:17,3,tickOptionComputation,DU7224701,NFLX,OPT,USD,P,20231020,382.5,-2.0,2034.29205,,-0.514678277016755
+2023-10-04 11:14:36,4,tickOptionComputation,DU7224701,AAPL,OPT,USD,C,20231020,170.0,-1.0,535.0,,0.6317827277342294

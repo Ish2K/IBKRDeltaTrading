@@ -1,0 +1,13 @@
+{
+    "account_id": "DU7224701",
+    "port": 7497,
+    "host": "127.0.0.1",
+    "data_path": "./data/",
+    "trading":{
+        "TSLA":{
+            "target_delta":0,
+            "hedge_frequency":30,
+            "stop_hedging": false
+        }
+    }
+}

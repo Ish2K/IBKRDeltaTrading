@@ -1,0 +1,11 @@
+# auto generate gitignore for python
+
+build/
+dist/
+*.pyc
+ibapi/
+ibapi.egg-info/
+tests/
+venv/
+*.pdf
+.env

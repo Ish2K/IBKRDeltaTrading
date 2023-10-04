@@ -1,0 +1,1395 @@
+10/04/2023 08:44:15 PM INFO sent startApi
+10/04/2023 08:44:15 PM INFO REQUEST startApi {}
+10/04/2023 08:44:15 PM INFO SENDING startApi b'\x00\x00\x00\x0871\x002\x001\x00\x00'
+10/04/2023 08:44:15 PM INFO ANSWER connectAck {}
+10/04/2023 08:44:15 PM INFO ANSWER nextValidId {'orderId': 1}
+10/04/2023 08:44:15 PM INFO The next valid order id is: 1
+10/04/2023 08:44:15 PM INFO REQUEST reqPositions {}
+10/04/2023 08:44:15 PM INFO SENDING reqPositions b'\x00\x00\x00\x0561\x001\x00'
+10/04/2023 08:44:15 PM INFO ANSWER managedAccounts {'accountsList': 'DU7224701'}
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usfarm.nj'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2104 Market data farm connection is OK:usfarm.nj
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:hfarm'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2104 Market data farm connection is OK:hfarm
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:cashfarm'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2104 Market data farm connection is OK:cashfarm
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usopt'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2104 Market data farm connection is OK:usopt
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2104, 'errorString': 'Market data farm connection is OK:usfarm'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2104 Market data farm connection is OK:usfarm
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2106, 'errorString': 'HMDS data farm connection is OK:euhmds'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2106 HMDS data farm connection is OK:euhmds
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2106, 'errorString': 'HMDS data farm connection is OK:hkhmds'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2106 HMDS data farm connection is OK:hkhmds
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2106, 'errorString': 'HMDS data farm connection is OK:fundfarm'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2106 HMDS data farm connection is OK:fundfarm
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2106, 'errorString': 'HMDS data farm connection is OK:ushmds'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2106 HMDS data farm connection is OK:ushmds
+10/04/2023 08:44:15 PM INFO ANSWER error {'reqId': -1, 'errorCode': 2158, 'errorString': 'Sec-def data farm connection is OK:secdefhk'}
+10/04/2023 08:44:15 PM ERROR ERROR -1 2158 Sec-def data farm connection is OK:secdefhk
+10/04/2023 08:44:15 PM INFO ANSWER position {'account': 'DU7224701', 'contract': 1610389764560: 265598,AAPL,STK,,0.0,,,NASDAQ,,USD,AAPL,NMS,False,,combo:, 'position': 85.0, 'avgCost': 172.77914285}
+10/04/2023 08:44:16 PM INFO REQUEST reqMktData {'reqId': 1, 'contract': 1610389764560: 265598,AAPL,STK,,0.0,,,SMART,,USD,AAPL,NMS,False,,combo:, 'genericTickList': '', 'snapshot': False, 'regulatorySnapshot': False, 'mktDataOptions': []}
+10/04/2023 08:44:16 PM INFO SENDING reqMktData b'\x00\x00\x00:1\x0011\x001\x00265598\x00AAPL\x00STK\x00\x000.0\x00\x00\x00SMART\x00\x00USD\x00AAPL\x00NMS\x000\x00\x000\x000\x00\x00'
+10/04/2023 08:44:16 PM INFO ANSWER position {'account': 'DU7224701', 'contract': 1610389765280: 654827994,NFLX,OPT,20231020,382.5,C,100,,,USD,NFLX  231020C00382500,NFLX,False,,combo:, 'position': -2.0, 'avgCost': 1743.94435}
+10/04/2023 08:44:16 PM INFO REQUEST reqMktData {'reqId': 2, 'contract': 1610389765280: 654827994,NFLX,OPT,20231020,382.5,C,100,SMART,,USD,NFLX  231020C00382500,NFLX,False,,combo:, 'genericTickList': '', 'snapshot': False, 'regulatorySnapshot': False, 'mktDataOptions': []}
+10/04/2023 08:44:16 PM INFO SENDING reqMktData b'\x00\x00\x00]1\x0011\x002\x00654827994\x00NFLX\x00OPT\x0020231020\x00382.5\x00C\x00100\x00SMART\x00\x00USD\x00NFLX  231020C00382500\x00NFLX\x000\x00\x000\x000\x00\x00'
+10/04/2023 08:44:16 PM INFO ANSWER position {'account': 'DU7224701', 'contract': 1610389764560: 654828581,NFLX,OPT,20231020,382.5,P,100,,,USD,NFLX  231020P00382500,NFLX,False,,combo:, 'position': -2.0, 'avgCost': 2034.29205}
+10/04/2023 08:44:16 PM INFO REQUEST reqMktData {'reqId': 3, 'contract': 1610389764560: 654828581,NFLX,OPT,20231020,382.5,P,100,SMART,,USD,NFLX  231020P00382500,NFLX,False,,combo:, 'genericTickList': '', 'snapshot': False, 'regulatorySnapshot': False, 'mktDataOptions': []}
+10/04/2023 08:44:16 PM INFO SENDING reqMktData b'\x00\x00\x00]1\x0011\x003\x00654828581\x00NFLX\x00OPT\x0020231020\x00382.5\x00P\x00100\x00SMART\x00\x00USD\x00NFLX  231020P00382500\x00NFLX\x000\x00\x000\x000\x00\x00'
+10/04/2023 08:44:16 PM INFO ANSWER positionEnd {}
+10/04/2023 08:44:16 PM INFO PositionEnd
+10/04/2023 08:44:16 PM INFO ANSWER tickReqParams {'tickerId': 1, 'minTick': 0.01, 'bboExchange': '9c0001', 'snapshotPermissions': 3}
+10/04/2023 08:44:16 PM INFO ANSWER marketDataType {'reqId': 1, 'marketDataType': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.47, 'attrib': 1610389765280: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.48, 'attrib': 1610389765520: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.48, 'attrib': 1610389765280: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 197965}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 6, 'price': 173.49, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 7, 'price': 170.97, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 9, 'price': 172.4, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 14, 'price': 171.0, 'attrib': 1610389765328: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'ZNH'}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'J'}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432455'}
+10/04/2023 08:44:16 PM INFO ANSWER tickGeneric {'reqId': 1, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 8}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'QVZN'}
+10/04/2023 08:44:16 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:16 PM INFO ANSWER tickGeneric {'reqId': 1, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:16 PM INFO ANSWER tickReqParams {'tickerId': 2, 'minTick': 0.01, 'bboExchange': 'c70003', 'snapshotPermissions': 3}
+10/04/2023 08:44:16 PM INFO ANSWER marketDataType {'reqId': 2, 'marketDataType': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.3, 'attrib': 1610390070672: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 64}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.55, 'attrib': 1610389765472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 175}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 4, 'price': 16.85, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 64}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 175}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:16 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 8, 'size': 32}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 6, 'price': 17.4, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 7, 'price': 15.37, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 9, 'price': 16.42, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:16 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5704149789886268, 'delta': 0.489770069002445, 'optPrice': 16.299999237060547, 'pvDividend': 0.0, 'gamma': 0.008809387765740579, 'vega': 0.31825497768396716, 'theta': -0.585314567395231, 'undPrice': 377.66}
+10/04/2023 08:44:16 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.4905683956299963, 'optPrice': 16.549999237060547, 'pvDividend': 0.0, 'gamma': 0.008690071347811934, 'vega': 0.31822253148289903, 'theta': -0.5930602069290855, 'undPrice': 377.66}
+10/04/2023 08:44:17 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5727666707768858, 'delta': 0.4900104102827887, 'optPrice': 16.850000381469727, 'pvDividend': 0.0, 'gamma': 0.008773328105703467, 'vega': 0.31824521765434, 'theta': -0.587633470807273, 'undPrice': 377.66}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACNBQZWTHEPDU'}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACXNBQZWTHEPDU'}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 45, 'value': '1696430648'}
+10/04/2023 08:44:17 PM INFO ANSWER tickGeneric {'reqId': 2, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'X'}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.47, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 197966}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.46, 'attrib': 1610390074320: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 10}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 10}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQXZNH'}
+10/04/2023 08:44:17 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:17 PM INFO ANSWER tickReqParams {'tickerId': 3, 'minTick': 0.01, 'bboExchange': 'c70003', 'snapshotPermissions': 3}
+10/04/2023 08:44:17 PM INFO ANSWER marketDataType {'reqId': 3, 'marketDataType': 1}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 1, 'price': 20.2, 'attrib': 1610389765472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 65}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.4, 'attrib': 1610389765280: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 56}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 4, 'price': 21.1, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 65}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 56}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:17 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 8, 'size': 3}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 6, 'price': 21.16, 'attrib': 1610389764224: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 7, 'price': 20.6, 'attrib': 1610389764224: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 9, 'price': 20.89, 'attrib': 1610389764224: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:17 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5635753606669721, 'delta': -0.5132388797251478, 'optPrice': 20.200000762939453, 'pvDividend': 0.0, 'gamma': 0.008985304736803411, 'vega': 0.3180222913156072, 'theta': -0.5256053800104858, 'undPrice': 377.66}
+10/04/2023 08:44:17 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5122197283827093, 'optPrice': 20.399999618530273, 'pvDividend': 0.0, 'gamma': 0.008836436279105466, 'vega': 0.31799331707583534, 'theta': -0.5348940723919257, 'undPrice': 377.66}
+10/04/2023 08:44:17 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5773516842655061, 'delta': -0.5117575584950028, 'optPrice': 21.100000381469727, 'pvDividend': 0.0, 'gamma': 0.008769556942340908, 'vega': 0.31798731437179484, 'theta': -0.5391693344717717, 'undPrice': 377.66}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'NBQZTHPD'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQZWTHEPU'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 45, 'value': '1696428051'}
+10/04/2023 08:44:18 PM INFO ANSWER tickGeneric {'reqId': 3, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 16}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 26}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQVXZNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432456'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610389765280: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 20}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 20}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 197986}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610389765280: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610389765472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QU'}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 63}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 180}
+10/04/2023 08:44:18 PM INFO ANSWER tickGeneric {'reqId': 2, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:18 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': -0.5123956917556545, 'optPrice': 20.353189559826404, 'pvDividend': 0.0, 'gamma': 0.008862002617538133, 'vega': 0.3179955637102374, 'theta': -0.5332766825357212, 'undPrice': 377.66}
+10/04/2023 08:44:18 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': 0.48986745609323396, 'optPrice': 16.37263124609083, 'pvDividend': 0.0, 'gamma': 0.008794761904739884, 'vega': 0.3182510236706584, 'theta': -0.5862528510485999, 'undPrice': 377.66}
+10/04/2023 08:44:18 PM INFO ANSWER tickGeneric {'reqId': 3, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610389765472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 29}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 59}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432457'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610389765856: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 197988}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610389765328: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 16}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610389765856: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 16}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610389765328: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610389765472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVYZNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.44, 'attrib': 1610389765856: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 197990}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.46, 'attrib': 1610389765328: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KQVNUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 42}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 273}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'NBQZWTHEPD'}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'NUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QZUH'}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 131}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ANBQZTHEPDU'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'TP'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432458'}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.47, 'attrib': 1610389765280: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 80}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 80}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198070}
+10/04/2023 08:44:18 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.5, 'attrib': 1610390074704: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 47}
+10/04/2023 08:44:18 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:18 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'NBZ'}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'V'}
+10/04/2023 08:44:19 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 3}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 3}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198073}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 37}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'U'}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'AJKPQVXZNUH'}
+10/04/2023 08:44:19 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610389765328: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 21}
+10/04/2023 08:44:19 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610390073792: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 21}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432459'}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 10}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198083}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 25}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 29}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 27}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:19 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.55, 'attrib': 1610389765280: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 232}
+10/04/2023 08:44:19 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 232}
+10/04/2023 08:44:19 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACXNBQZWTHEJPDU'}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198098}
+10/04/2023 08:44:20 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390072256: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:20 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KQZH'}
+10/04/2023 08:44:20 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PVH'}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 137}
+10/04/2023 08:44:20 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432460'}
+10/04/2023 08:44:20 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:20 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610389765472: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198099}
+10/04/2023 08:44:20 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 482}
+10/04/2023 08:44:20 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACIXNBQZWTHEJPDU'}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:21 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:21 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'P'}
+10/04/2023 08:44:21 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610390074656: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 16}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 16}
+10/04/2023 08:44:21 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNUH'}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 120}
+10/04/2023 08:44:21 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432461'}
+10/04/2023 08:44:21 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610390074368: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198100}
+10/04/2023 08:44:21 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610390072256: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:21 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'H'}
+10/04/2023 08:44:21 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 709}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'U'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610390072256: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198101}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 13}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNUH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 1, 'price': 20.25, 'attrib': 1610390073408: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.55, 'attrib': 1610390073408: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'B'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'E'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390073504: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 26}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.25, 'attrib': 1610390074704: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.5, 'attrib': 1610390073504: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 63}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 63}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'Z'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ABQZWTHPD'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.5, 'attrib': 1610390074464: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'P'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.2, 'attrib': 1610389765328: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 107}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 107}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 96}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ANBQZWTHPD'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'J'}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198102}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.43, 'attrib': 1610390073648: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 18}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390074464: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 18}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390073648: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 19}
+10/04/2023 08:44:22 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610390073072: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 19}
+10/04/2023 08:44:22 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:22 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': -0.5143478435878291, 'optPrice': 20.465284899685006, 'pvDividend': 0.0, 'gamma': 0.008866668387530637, 'vega': 0.3179269696506566, 'theta': -0.5328053241256931, 'undPrice': 377.44}
+10/04/2023 08:44:23 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': 0.4879297487031055, 'optPrice': 16.26433258213243, 'pvDividend': 0.0, 'gamma': 0.008799006103088322, 'vega': 0.3181888510531792, 'theta': -0.5857604288955429, 'undPrice': 377.44}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432462'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198103}
+10/04/2023 08:44:23 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390074608: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 32}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 32}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 117}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 87}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ANBQZTHPDU'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQZWTHP'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 26}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 196}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 577}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACINBQZWTHEPDU'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACIXNBQZWTHEJPDU'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432463'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198104}
+10/04/2023 08:44:23 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390072304: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 14}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PZNUH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZNH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 15}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'Z'}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:23 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390073696: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:23 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 18}
+10/04/2023 08:44:23 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:24 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 34}
+10/04/2023 08:44:24 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 13}
+10/04/2023 08:44:24 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:24 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': -0.514614226721869, 'optPrice': 20.480570667196154, 'pvDividend': 0.0, 'gamma': 0.008867305446908638, 'vega': 0.3179183453515222, 'theta': -0.5327410758695235, 'undPrice': 377.41}
+10/04/2023 08:44:24 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5635753606669721, 'delta': -0.5154884743204702, 'optPrice': 20.25, 'pvDividend': 0.0, 'gamma': 0.008990649905906685, 'vega': 0.3179520217785736, 'theta': -0.5250716541107051, 'undPrice': 377.41}
+10/04/2023 08:44:24 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5144318014738258, 'optPrice': 20.5, 'pvDividend': 0.0, 'gamma': 0.008841728223029711, 'vega': 0.3179114486188972, 'theta': -0.5343579362161848, 'undPrice': 377.41}
+10/04/2023 08:44:24 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5773516842655061, 'delta': -0.5139526913197954, 'optPrice': 21.100000381469727, 'pvDividend': 0.0, 'gamma': 0.008774819195960282, 'vega': 0.31789453287024827, 'theta': -0.538631719599387, 'undPrice': 377.41}
+10/04/2023 08:44:25 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': 0.48766534084682356, 'optPrice': 16.249564582501765, 'pvDividend': 0.0, 'gamma': 0.008799585161101166, 'vega': 0.3181803729689747, 'theta': -0.5856932804201336, 'undPrice': 377.41}
+10/04/2023 08:44:25 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5704149789886268, 'delta': 0.48756423893008166, 'optPrice': 16.200000762939453, 'pvDividend': 0.0, 'gamma': 0.008814214104107541, 'vega': 0.3181844417488904, 'theta': -0.5847552030855119, 'undPrice': 377.41}
+10/04/2023 08:44:25 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.48839286840626145, 'optPrice': 16.5, 'pvDividend': 0.0, 'gamma': 0.008694872212524005, 'vega': 0.3181510647950532, 'theta': -0.5924991290902606, 'undPrice': 377.41}
+10/04/2023 08:44:25 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5727666707768858, 'delta': 0.4878137388667768, 'optPrice': 16.850000381469727, 'pvDividend': 0.0, 'gamma': 0.008778146825086326, 'vega': 0.3181743991057786, 'theta': -0.587073595960991, 'undPrice': 377.41}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 185}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 94}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACXNBQZTHEPDU'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQZTHEPU'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 176}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 868}
+10/04/2023 08:44:26 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390074704: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 182}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 89}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 930}
+10/04/2023 08:44:26 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610390073264: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 15}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 24}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 15}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432465'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 6}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198110}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 30}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 20}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 183}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 243}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 936}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432466'}
+10/04/2023 08:44:26 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610390073456: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198111}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 38}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 23}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AJKPQVZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 24}
+10/04/2023 08:44:26 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 20}
+10/04/2023 08:44:26 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'H'}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198112}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 234}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 970}
+10/04/2023 08:44:27 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610390074224: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 15}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 15}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PNUH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610390073552: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 25}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 25}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432467'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'K'}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198113}
+10/04/2023 08:44:27 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.46, 'attrib': 1610390073648: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:27 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PNH'}
+10/04/2023 08:44:27 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNH'}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 75}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQZTHP'}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 16}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNH'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQH'}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 257}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 985}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198114}
+10/04/2023 08:44:28 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390073648: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 31}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 31}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 24}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432468'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'J'}
+10/04/2023 08:44:28 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610390068752: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198115}
+10/04/2023 08:44:28 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390068752: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:28 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 23}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'U'}
+10/04/2023 08:44:28 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 239}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 41}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACXNBQZWTHEPDU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQTHP'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.45, 'attrib': 1610390073264: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 78}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACNBQZWHEPDU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'P'}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 9}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQVZNUH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.6, 'attrib': 1610390073264: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 99}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 151}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 99}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'ACIXBQZWTHEPDU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.55, 'attrib': 1610390074224: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 182}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'N'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432469'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610390072880: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198116}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 10}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JQVZNUH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.6, 'attrib': 1610390074224: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 127}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 296}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 127}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 19}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'QNU'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNH'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'H'}
+10/04/2023 08:44:29 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610390073168: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198117}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:29 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'QZN'}
+10/04/2023 08:44:29 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JPQZNUH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 199}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'QTHPD'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACINBQZWTHEJPDU'}
+10/04/2023 08:44:30 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5144318014738258, 'optPrice': 20.600000381469727, 'pvDividend': 0.0, 'gamma': 0.008841728223029711, 'vega': 0.3179114486188972, 'theta': -0.5343579362161848, 'undPrice': 377.41}
+10/04/2023 08:44:30 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.48839286840626145, 'optPrice': 16.450000762939453, 'pvDividend': 0.0, 'gamma': 0.008694872212524005, 'vega': 0.3181510647950532, 'theta': -0.5924991290902606, 'undPrice': 377.41}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 10}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432470'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'J'}
+10/04/2023 08:44:30 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.43, 'attrib': 1610390073888: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198118}
+10/04/2023 08:44:30 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.43, 'attrib': 1610390073888: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:30 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390069232: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 21}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 21}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 361}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 255}
+10/04/2023 08:44:30 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.42, 'attrib': 1610390069232: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 14}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNU'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JPQVZNUH'}
+10/04/2023 08:44:30 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 1, 'price': 20.3, 'attrib': 1610390072448: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 228}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'NBE'}
+10/04/2023 08:44:30 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:30 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198119}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 343}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACIXNBQZWTHEJPDU'}
+10/04/2023 08:44:31 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.43, 'attrib': 1610390074608: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 17}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'NH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432471'}
+10/04/2023 08:44:31 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.44, 'attrib': 1610390072304: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198121}
+10/04/2023 08:44:31 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390072448: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 26}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 36}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 26}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390070672: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'QZUH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZNH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 83}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 176}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACXNBQZTHEPDU'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 6}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198127}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 18}
+10/04/2023 08:44:31 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:31 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5635753606669721, 'delta': -0.5154884743204702, 'optPrice': 20.299999237060547, 'pvDividend': 0.0, 'gamma': 0.008990649905906685, 'vega': 0.3179520217785736, 'theta': -0.5250716541107051, 'undPrice': 377.41}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 351}
+10/04/2023 08:44:32 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.43, 'attrib': 1610390073264: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:32 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390072880: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 12}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'NH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432472'}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Z'}
+10/04/2023 08:44:32 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.43, 'attrib': 1610390073888: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198128}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQZNH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZNUH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 14}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JQUH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 177}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198129}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 16}
+10/04/2023 08:44:32 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 24}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNH'}
+10/04/2023 08:44:32 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQXZNUH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 367}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQZNH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQVNH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432473'}
+10/04/2023 08:44:33 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.44, 'attrib': 1610390072880: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198130}
+10/04/2023 08:44:33 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390072880: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 33}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 29}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 33}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 37}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 14}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AJKPQVXYZNUH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:33 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 84}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 369}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Y'}
+10/04/2023 08:44:34 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610390073264: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198131}
+10/04/2023 08:44:34 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390072448: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 7}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQZNUH'}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'VNH'}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:34 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.44, 'attrib': 1610390074512: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198133}
+10/04/2023 08:44:34 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390072880: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 21}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVXYZNUH'}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 175}
+10/04/2023 08:44:34 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390069184: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:34 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPZNUH'}
+10/04/2023 08:44:34 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQVZNH'}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432474'}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 8}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198141}
+10/04/2023 08:44:35 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390072448: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 37}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AJKPQVYZNUH'}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 367}
+10/04/2023 08:44:35 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390069856: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PUH'}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZNH'}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432475'}
+10/04/2023 08:44:35 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198142}
+10/04/2023 08:44:35 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 179}
+10/04/2023 08:44:35 PM INFO ANSWER position {'account': 'DU7224701', 'contract': 1610390073456: 602599968,AAPL,OPT,20231020,170.0,C,100,,,USD,AAPL  231020C00170000,AAPL,False,,combo:, 'position': -1.0, 'avgCost': 535.0}
+10/04/2023 08:44:36 PM INFO REQUEST reqMktData {'reqId': 4, 'contract': 1610390073456: 602599968,AAPL,OPT,20231020,170.0,C,100,SMART,,USD,AAPL  231020C00170000,AAPL,False,,combo:, 'genericTickList': '', 'snapshot': False, 'regulatorySnapshot': False, 'mktDataOptions': []}
+10/04/2023 08:44:36 PM INFO SENDING reqMktData b'\x00\x00\x00]1\x0011\x004\x00602599968\x00AAPL\x00OPT\x0020231020\x00170.0\x00C\x00100\x00SMART\x00\x00USD\x00AAPL  231020C00170000\x00AAPL\x000\x00\x000\x000\x00\x00'
+10/04/2023 08:44:36 PM INFO ANSWER position {'account': 'DU7224701', 'contract': 1610390074704: 602599968,AAPL,OPT,20231020,170.0,C,100,,,USD,AAPL  231020C00170000,AAPL,False,,combo:, 'position': -1.0, 'avgCost': 533.95403}
+10/04/2023 08:44:36 PM INFO REQUEST reqMktData {'reqId': 5, 'contract': 1610390074704: 602599968,AAPL,OPT,20231020,170.0,C,100,SMART,,USD,AAPL  231020C00170000,AAPL,False,,combo:, 'genericTickList': '', 'snapshot': False, 'regulatorySnapshot': False, 'mktDataOptions': []}
+10/04/2023 08:44:36 PM INFO SENDING reqMktData b'\x00\x00\x00]1\x0011\x005\x00602599968\x00AAPL\x00OPT\x0020231020\x00170.0\x00C\x00100\x00SMART\x00\x00USD\x00AAPL  231020C00170000\x00AAPL\x000\x00\x000\x000\x00\x00'
+10/04/2023 08:44:36 PM INFO ANSWER tickReqParams {'tickerId': 4, 'minTick': 0.01, 'bboExchange': 'c70003', 'snapshotPermissions': 3}
+10/04/2023 08:44:36 PM INFO ANSWER marketDataType {'reqId': 4, 'marketDataType': 1}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 1, 'price': 5.35, 'attrib': 1610390074704: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4527}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 2, 'price': 5.45, 'attrib': 1610390073264: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 4367}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 4, 'price': 5.4, 'attrib': 1610390074704: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4527}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 4367}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:36 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 8, 'size': 983}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 6, 'price': 6.08, 'attrib': 1610390074896: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 7, 'price': 4.5, 'attrib': 1610390074896: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 9, 'price': 5.63, 'attrib': 1610390074896: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:36 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': None, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': None, 'vega': None, 'theta': None, 'undPrice': 172.4600067138672}
+10/04/2023 08:44:36 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': None, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': None, 'vega': None, 'theta': None, 'undPrice': 172.4600067138672}
+10/04/2023 08:44:36 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.26482483529034223, 'delta': None, 'optPrice': 5.409999847412109, 'pvDividend': 0.0, 'gamma': None, 'vega': None, 'theta': None, 'undPrice': 172.4600067138672}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 32, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 33, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 45, 'value': '1696432473'}
+10/04/2023 08:44:37 PM INFO ANSWER tickGeneric {'reqId': 4, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:37 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.43, 'attrib': 1610390074992: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 4}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 4}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198146}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 18}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PU'}
+10/04/2023 08:44:37 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 369}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4256}
+10/04/2023 08:44:37 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 3990}
+10/04/2023 08:44:37 PM INFO ANSWER tickGeneric {'reqId': 4, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:37 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.2668090129190003, 'delta': 0.6268397941565487, 'optPrice': 5.426049068327401, 'pvDividend': 0.0, 'gamma': 0.039209758961721075, 'vega': 0.13611874019241377, 'theta': -0.12905336172805582, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:37 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6292502618147001, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.040057363364226044, 'vega': 0.1360473512078233, 'theta': -0.12619882685121916, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:37 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6264296838394525, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.039064690623546054, 'vega': 0.13613073657814745, 'theta': -0.12955417780586906, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:37 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.26482483529034223, 'delta': None, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': None, 'vega': None, 'theta': None, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:38 PM INFO ANSWER tickReqParams {'tickerId': 5, 'minTick': 0.01, 'bboExchange': 'c70003', 'snapshotPermissions': 3}
+10/04/2023 08:44:38 PM INFO ANSWER marketDataType {'reqId': 5, 'marketDataType': 1}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 1, 'price': 5.35, 'attrib': 1610390077152: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4256}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 2, 'price': 5.45, 'attrib': 1610390075568: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 3990}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 4, 'price': 5.4, 'attrib': 1610390077152: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4256}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 3990}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 8, 'size': 983}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 6, 'price': 6.08, 'attrib': 1610390074368: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 7, 'price': 4.5, 'attrib': 1610390074368: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 9, 'price': 5.63, 'attrib': 1610390074368: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6292502618147001, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.040057363364226044, 'vega': 0.1360473512078233, 'theta': -0.12619882685121916, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:38 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6264296838394525, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.039064690623546054, 'vega': 0.13613073657814745, 'theta': -0.12955417780586906, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:38 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': None, 'delta': None, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': None, 'vega': None, 'theta': None, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 32, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 33, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 45, 'value': '1696432473'}
+10/04/2023 08:44:38 PM INFO ANSWER tickGeneric {'reqId': 5, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 1, 'price': 5.35, 'attrib': 1610390077152: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4256}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 2, 'price': 5.45, 'attrib': 1610390072448: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 3990}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 4, 'price': 5.4, 'attrib': 1610390077152: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4256}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 3990}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 15}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 8, 'size': 983}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 6, 'price': 6.08, 'attrib': 1610390073936: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 7, 'price': 4.5, 'attrib': 1610390073936: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 9, 'price': 5.63, 'attrib': 1610390073936: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 32, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 33, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 45, 'value': '1696432473'}
+10/04/2023 08:44:38 PM INFO ANSWER tickGeneric {'reqId': 4, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.42, 'attrib': 1610390074608: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:38 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.43, 'attrib': 1610390069184: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 11}
+10/04/2023 08:44:38 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 11}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'QH'}
+10/04/2023 08:44:38 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZNUH'}
+10/04/2023 08:44:38 PM INFO ANSWER tickGeneric {'reqId': 5, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:38 PM INFO ANSWER tickGeneric {'reqId': 4, 'tickType': 49, 'value': 0.0}
+10/04/2023 08:44:38 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.2668090129190003, 'delta': 0.6268397941565487, 'optPrice': 5.426049068327401, 'pvDividend': 0.0, 'gamma': 0.039209758961721075, 'vega': 0.13611874019241377, 'theta': -0.12905336172805582, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 8, 'size': 999}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 8, 'size': 999}
+10/04/2023 08:44:39 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.15, 'attrib': 1610390075952: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 122}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 122}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 555}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432476'}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198148}
+10/04/2023 08:44:39 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.41, 'attrib': 1610390076144: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 8}
+10/04/2023 08:44:39 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.42, 'attrib': 1610390076000: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 8}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KZUH'}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 98}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 174}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 18}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QNH'}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 8, 'size': 1022}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 8, 'size': 1022}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 45, 'value': '1696432476'}
+10/04/2023 08:44:39 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 45, 'value': '1696432476'}
+10/04/2023 08:44:39 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 4, 'price': 5.39, 'attrib': 1610390076384: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 23}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 23}
+10/04/2023 08:44:39 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 4, 'price': 5.39, 'attrib': 1610390076672: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 23}
+10/04/2023 08:44:39 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 23}
+10/04/2023 08:44:39 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': -0.514703030511052, 'optPrice': 20.485665923033228, 'pvDividend': 0.0, 'gamma': 0.008867517820148448, 'vega': 0.31791547058519143, 'theta': -0.5327196597841665, 'undPrice': 377.4}
+10/04/2023 08:44:39 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': 0.4875771955533465, 'optPrice': 16.24464191595819, 'pvDividend': 0.0, 'gamma': 0.008799778196643945, 'vega': 0.31817754694087697, 'theta': -0.5856708975949861, 'undPrice': 377.4}
+10/04/2023 08:44:39 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.627883282546506, 'optPrice': 5.388633562126551, 'pvDividend': 0.0, 'gamma': 0.039577735876412945, 'vega': 0.13608801998361209, 'theta': -0.1277992708519579, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:39 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.627883282546506, 'optPrice': 5.388633562126551, 'pvDividend': 0.0, 'gamma': 0.039577735876412945, 'vega': 0.13608801998361209, 'theta': -0.1277992708519579, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:40 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.41, 'attrib': 1610390076816: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198150}
+10/04/2023 08:44:40 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.42, 'attrib': 1610390076912: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:40 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.43, 'attrib': 1610390076816: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 20}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 20}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'U'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVYZNH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4202}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 5469}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4202}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 5469}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 25}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 133}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 700}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 3}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQNH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QUH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 92}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 166}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACNBQZTHEPDU'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432477'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:40 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.43, 'attrib': 1610390077008: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 30}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 30}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198180}
+10/04/2023 08:44:40 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.41, 'attrib': 1610390077056: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 34}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 34}
+10/04/2023 08:44:40 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVYZNUH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QZUH'}
+10/04/2023 08:44:40 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5635753606669721, 'delta': -0.5155785200962909, 'optPrice': 20.299999237060547, 'pvDividend': 0.0, 'gamma': 0.008990863843245935, 'vega': 0.3179492365625549, 'theta': -0.525050305074721, 'undPrice': 377.4}
+10/04/2023 08:44:40 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5145203477073579, 'optPrice': 20.600000381469727, 'pvDividend': 0.0, 'gamma': 0.008841940269047686, 'vega': 0.31790856598406236, 'theta': -0.5343365058748039, 'undPrice': 377.4}
+10/04/2023 08:44:40 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5773516842655061, 'delta': -0.5140405629047625, 'optPrice': 21.100000381469727, 'pvDividend': 0.0, 'gamma': 0.008775030258133299, 'vega': 0.31789143163761224, 'theta': -0.5386102434216181, 'undPrice': 377.4}
+10/04/2023 08:44:40 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6274933273912566, 'optPrice': 5.382188978778137, 'pvDividend': 0.0, 'gamma': 0.039595254077889414, 'vega': 0.13609002515631818, 'theta': -0.1278259448810123, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:40 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6274933273912566, 'optPrice': 5.382188978778137, 'pvDividend': 0.0, 'gamma': 0.039595254077889414, 'vega': 0.13609002515631818, 'theta': -0.1278259448810123, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:41 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5704149789886268, 'delta': 0.48747594494119667, 'optPrice': 16.149999618530273, 'pvDividend': 0.0, 'gamma': 0.008814407262833307, 'vega': 0.3181816203114707, 'theta': -0.5847328285131052, 'undPrice': 377.4}
+10/04/2023 08:44:41 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.4883057873663763, 'optPrice': 16.450000762939453, 'pvDividend': 0.0, 'gamma': 0.008695064353077887, 'vega': 0.31814820612752115, 'theta': -0.5924766859767129, 'undPrice': 377.4}
+10/04/2023 08:44:41 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5727666707768858, 'delta': 0.48772581147652977, 'optPrice': 16.850000381469727, 'pvDividend': 0.0, 'gamma': 0.008778339679291182, 'vega': 0.3181715663638478, 'theta': -0.5870512009671414, 'undPrice': 377.4}
+10/04/2023 08:44:41 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.42, 'attrib': 1610390076960: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:41 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 21}
+10/04/2023 08:44:41 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 21}
+10/04/2023 08:44:41 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:41 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:41 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QVZ'}
+10/04/2023 08:44:41 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6288551716428782, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.0400753267810975, 'vega': 0.13604951425708656, 'theta': -0.12622547366712816, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:42 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6260452051939296, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.03908174092944661, 'vega': 0.13613257562287018, 'theta': -0.12958087945534882, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:42 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.626447691183714, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03922478267735683, 'vega': 0.13612080399835325, 'theta': -0.12908747237757595, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:42 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6288551716428782, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.0400753267810975, 'vega': 0.13604951425708656, 'theta': -0.12622547366712816, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:42 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6260452051939296, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.03908174092944661, 'vega': 0.13613257562287018, 'theta': -0.12958087945534882, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:43 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.626447691183714, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03922478267735683, 'vega': 0.13612080399835325, 'theta': -0.12908747237757595, 'undPrice': 172.4199981689453}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 3757}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 4932}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 3757}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 4932}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'N'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198182}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 220}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 802}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEJPDU'}
+10/04/2023 08:44:43 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.43, 'attrib': 1610390077200: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:43 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.44, 'attrib': 1610390074224: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'ZNH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 89}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 310}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432478'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198183}
+10/04/2023 08:44:43 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.44, 'attrib': 1610390074800: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:43 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.45, 'attrib': 1610390077296: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'Z'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVXZNUH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 41}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QZH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.627883282546506, 'optPrice': 5.388633562126551, 'pvDividend': 0.0, 'gamma': 0.039577735876412945, 'vega': 0.13608801998361209, 'theta': -0.1277992708519579, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:43 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.627883282546506, 'optPrice': 5.388633562126551, 'pvDividend': 0.0, 'gamma': 0.039577735876412945, 'vega': 0.13608801998361209, 'theta': -0.1277992708519579, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4706}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 4972}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4706}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 4972}
+10/04/2023 08:44:43 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.45, 'attrib': 1610390075904: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198184}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'ZUH'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 213}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 848}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 312}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACXNBQZTHEPDU'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432479'}
+10/04/2023 08:44:43 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:43 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198185}
+10/04/2023 08:44:43 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6292502618147001, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.040057363364226044, 'vega': 0.1360473512078233, 'theta': -0.12619882685121916, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:44 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6264296838394525, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.039064690623546054, 'vega': 0.13613073657814745, 'theta': -0.12955417780586906, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:44 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6268336936708437, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03920760289530994, 'vega': 0.13611891896154482, 'theta': -0.129060778264748, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:44 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6292502618147001, 'optPrice': 5.349999904632568, 'pvDividend': 0.0, 'gamma': 0.040057363364226044, 'vega': 0.1360473512078233, 'theta': -0.12619882685121916, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:44 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6264296838394525, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.039064690623546054, 'vega': 0.13613073657814745, 'theta': -0.12955417780586906, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:45 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6268336936708437, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03920760289530994, 'vega': 0.13611891896154482, 'theta': -0.129060778264748, 'undPrice': 172.42999267578125}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 28}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'Z'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4896}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 5088}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4896}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 5088}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432480'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Z'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 2}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198187}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.45, 'attrib': 1610390075088: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.47, 'attrib': 1610390069232: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 31}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 221}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 852}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 88}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 313}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'H'}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.46, 'attrib': 1610390076672: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198188}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.46, 'attrib': 1610390076480: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QZH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 9}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPVZNH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.628663652434439, 'optPrice': 5.4015325678819375, 'pvDividend': 0.0, 'gamma': 0.03954268412733105, 'vega': 0.1360840065768345, 'theta': -0.12774588207014453, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:45 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.628663652434439, 'optPrice': 5.4015325678819375, 'pvDividend': 0.0, 'gamma': 0.03954268412733105, 'vega': 0.1360840065768345, 'theta': -0.12774588207014453, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 6591}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 2544}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 6591}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 2544}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432481'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198189}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 3}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 16}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KZ'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.4, 'attrib': 1610390075712: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 227}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'N'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 11}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KQZH'}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 319}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198190}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.55, 'attrib': 1610390075712: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'N'}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 1, 'price': 5.4, 'attrib': 1610390077392: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 2314}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 32, 'value': 'T'}
+10/04/2023 08:44:45 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 1, 'price': 5.4, 'attrib': 1610390077152: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:45 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 2314}
+10/04/2023 08:44:45 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 32, 'value': 'T'}
+10/04/2023 08:44:45 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5145203477073579, 'optPrice': 20.549999237060547, 'pvDividend': 0.0, 'gamma': 0.008841940269047686, 'vega': 0.31790856598406236, 'theta': -0.5343365058748039, 'undPrice': 377.4}
+10/04/2023 08:44:45 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.4883057873663763, 'optPrice': 16.399999618530273, 'pvDividend': 0.0, 'gamma': 0.008695064353077887, 'vega': 0.31814820612752115, 'theta': -0.5924766859767129, 'undPrice': 377.4}
+10/04/2023 08:44:46 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6300409077875918, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.04002142080496032, 'vega': 0.13604302180697658, 'theta': -0.1261454925372338, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:46 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6271990942536488, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.03903057506451881, 'vega': 0.13612705568096928, 'theta': -0.129500733741037, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:46 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6276061535641656, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03917322827358459, 'vega': 0.13611514600997943, 'theta': -0.12900734928472038, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:46 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6300409077875918, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.04002142080496032, 'vega': 0.13604302180697658, 'theta': -0.1261454925372338, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:47 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6271990942536488, 'optPrice': 5.449999809265137, 'pvDividend': 0.0, 'gamma': 0.03903057506451881, 'vega': 0.13612705568096928, 'theta': -0.129500733741037, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:47 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6276061535641656, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03917322827358459, 'vega': 0.13611514600997943, 'theta': -0.12900734928472038, 'undPrice': 172.4499969482422}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.47, 'attrib': 1610390077152: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.48, 'attrib': 1610390075712: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZN'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432482'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Z'}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.47, 'attrib': 1610390074512: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198191}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390074512: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 7}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.5, 'attrib': 1610390076528: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 7}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KQZH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQZNH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 231}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 81}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'AXNBQZTHEPDU'}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.48, 'attrib': 1610390075712: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.49, 'attrib': 1610390074944: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 28}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'Z'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVXZNH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'K'}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.49, 'attrib': 1610390077152: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198192}
+10/04/2023 08:44:47 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.47, 'attrib': 1610390074944: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 27}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVXZNUH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 89}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 34}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'NBQZWTHEPU'}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 1953}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 205}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 32, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 33, 'value': 'NBZTP'}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 1953}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 205}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 32, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 33, 'value': 'NBZTP'}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 29}
+10/04/2023 08:44:47 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 17}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVZNUH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:47 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6298335703773911, 'optPrice': 5.420876156985717, 'pvDividend': 0.0, 'gamma': 0.039490148351208974, 'vega': 0.13607798799735615, 'theta': -0.12766581925927675, 'undPrice': 172.47999572753906}
+10/04/2023 08:44:47 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6298335703773911, 'optPrice': 5.420876156985717, 'pvDividend': 0.0, 'gamma': 0.039490148351208974, 'vega': 0.13607798799735615, 'theta': -0.12766581925927675, 'undPrice': 172.47999572753906}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AJKPQVXYZNUH'}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 233}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 89}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'AXNBQZTHEPU'}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432483'}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'N'}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198193}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.48, 'attrib': 1610390074512: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 27}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.5, 'attrib': 1610390069856: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 35}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 27}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 35}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390074512: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 23}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QZH'}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 87}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 43}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'ANBQZWTHEPU'}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 2, 'price': 5.5, 'attrib': 1610390077344: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 574}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 2257}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 574}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 33, 'value': 'ACIXNBQZWTMHEPD'}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 2, 'price': 5.5, 'attrib': 1610390074752: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 574}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 2257}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 574}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 33, 'value': 'ACIXNBQZWTMHEPD'}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432484'}
+10/04/2023 08:44:48 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6302238491968628, 'optPrice': 5.427330579392695, 'pvDividend': 0.0, 'gamma': 0.03947262621051456, 'vega': 0.13607597976329355, 'theta': -0.127639104506515, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:48 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6302238491968628, 'optPrice': 5.427330579392695, 'pvDividend': 0.0, 'gamma': 0.03947262621051456, 'vega': 0.13607597976329355, 'theta': -0.127639104506515, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.5, 'attrib': 1610390074368: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198194}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.5, 'attrib': 1610390074368: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:48 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.52, 'attrib': 1610390076000: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 26}
+10/04/2023 08:44:48 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 9}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:48 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZ'}
+10/04/2023 08:44:48 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6316216495694152, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.03994958246865352, 'vega': 0.13603436300523875, 'theta': -0.12603882390927953, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:48 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6287373796946553, 'optPrice': 5.5, 'pvDividend': 0.0, 'gamma': 0.03896238826648739, 'vega': 0.13611969388665734, 'theta': -0.1293938456113674, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:49 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6291505358414656, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03910452369911543, 'vega': 0.13610760010686906, 'theta': -0.12890049132466516, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:49 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6316216495694152, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.03994958246865352, 'vega': 0.13603436300523875, 'theta': -0.12603882390927953, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:49 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6287373796946553, 'optPrice': 5.5, 'pvDividend': 0.0, 'gamma': 0.03896238826648739, 'vega': 0.13611969388665734, 'theta': -0.1293938456113674, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:49 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6291505358414656, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03910452369911543, 'vega': 0.13610760010686906, 'theta': -0.12890049132466516, 'undPrice': 172.49000549316406}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.2, 'attrib': 1610390075520: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.55, 'attrib': 1610390075520: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'P'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'T'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 75}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 92}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'IXNBQZWTHPD'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACIXBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.52, 'attrib': 1610390077104: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.53, 'attrib': 1610390076960: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 10}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'NH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQZUH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 2, 'price': 16.5, 'attrib': 1610390077296: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 137}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'B'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 2, 'price': 20.5, 'attrib': 1610390070096: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 51}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 5}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'XQTHPD'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'P'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 3, 'tickType': 1, 'price': 20.2, 'attrib': 1610390077296: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 84}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 84}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 14}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACIXBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'ZTP'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'P'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.53, 'attrib': 1610390073072: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198195}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.53, 'attrib': 1610390073072: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.54, 'attrib': 1610390073072: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 8}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'N'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQZH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.52, 'attrib': 1610390070096: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 24}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.53, 'attrib': 1610390076624: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 24}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 5093}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 3432}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 33, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 5093}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 3432}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 33, 'value': 'ACIXNBQZWTMHEJPD'}
+10/04/2023 08:44:50 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': -0.5138152043368676, 'optPrice': 20.434713364662603, 'pvDividend': 0.0, 'gamma': 0.008865394540243267, 'vega': 0.31794421824901775, 'theta': -0.5329338206379777, 'undPrice': 377.5}
+10/04/2023 08:44:50 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713665134355549, 'delta': 0.48845843834040054, 'optPrice': 16.293868581393816, 'pvDividend': 0.0, 'gamma': 0.008797848205789832, 'vega': 0.3182058072215881, 'theta': -0.5858947258463836, 'undPrice': 377.5}
+10/04/2023 08:44:50 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6317827277342294, 'optPrice': 5.453118751844912, 'pvDividend': 0.0, 'gamma': 0.0394026557017619, 'vega': 0.13606795601106736, 'theta': -0.12753236766659562, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:50 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6317827277342294, 'optPrice': 5.453118751844912, 'pvDividend': 0.0, 'gamma': 0.0394026557017619, 'vega': 0.13606795601106736, 'theta': -0.12753236766659562, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'Q'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.54, 'attrib': 1610390073072: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198196}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.53, 'attrib': 1610390073072: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.54, 'attrib': 1610390077296: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 46}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 46}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'N'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 25}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVXZNUH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 444}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 140}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'ACIXNBQZWTHEJPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACNBQZTHEPU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 278}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 187}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 32, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 3, 'tickType': 33, 'value': 'ACNBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432485'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'P'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.52, 'attrib': 1610390073024: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198197}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.51, 'attrib': 1610390073024: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 27}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.52, 'attrib': 1610390076720: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 27}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'PQNH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.5, 'attrib': 1610390076720: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 37}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.51, 'attrib': 1610390074704: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 37}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 7}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVZNUH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'QN'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 5126}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 4600}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 5126}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 4600}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 2, 'tickType': 1, 'price': 16.25, 'attrib': 1610390074848: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 2}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 152}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'N'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACXNBQZWTHEPDU'}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198525}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 45, 'value': '1696432486'}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'N'}
+10/04/2023 08:44:50 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.51, 'attrib': 1610390075952: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:50 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 38}
+10/04/2023 08:44:50 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KQZH'}
+10/04/2023 08:44:50 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5635753606669721, 'delta': -0.514678277016755, 'optPrice': 20.200000762939453, 'pvDividend': 0.0, 'gamma': 0.008988724922011145, 'vega': 0.3179770887212463, 'theta': -0.5252637954346179, 'undPrice': 377.5}
+10/04/2023 08:44:51 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.573009235162754, 'delta': -0.5136350964756498, 'optPrice': 20.5, 'pvDividend': 0.0, 'gamma': 0.008839820261414348, 'vega': 0.3179380064342787, 'theta': -0.5345508092885691, 'undPrice': 377.5}
+10/04/2023 08:44:51 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5773516842655061, 'delta': -0.5131620908042138, 'optPrice': 21.100000381469727, 'pvDividend': 0.0, 'gamma': 0.008772923154414969, 'vega': 0.3179221986478211, 'theta': -0.5388252027332112, 'undPrice': 377.5}
+10/04/2023 08:44:51 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5704149789886268, 'delta': 0.4883586743278217, 'optPrice': 16.25, 'pvDividend': 0.0, 'gamma': 0.008812476039811497, 'vega': 0.31820983468550423, 'theta': -0.5849565742370082, 'undPrice': 377.5}
+10/04/2023 08:44:51 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782706636738616, 'delta': 0.48917639015480063, 'optPrice': 16.5, 'pvDividend': 0.0, 'gamma': 0.008693143314459877, 'vega': 0.3181767928026744, 'theta': -0.592701117112234, 'undPrice': 377.5}
+10/04/2023 08:44:52 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.5727666707768858, 'delta': 0.48860487575077516, 'optPrice': 16.850000381469727, 'pvDividend': 0.0, 'gamma': 0.008776411502305516, 'vega': 0.31819989378325175, 'theta': -0.5872751509056586, 'undPrice': 377.5}
+10/04/2023 08:44:52 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6332010557674982, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.03987783381831478, 'vega': 0.13602570750590726, 'theta': -0.12593219596348165, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:52 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6302743654236839, 'optPrice': 5.5, 'pvDividend': 0.0, 'gamma': 0.03889428648353465, 'vega': 0.1361123349000719, 'theta': -0.1292869982475731, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:52 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6306936132555145, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03903590480181041, 'vega': 0.13610005708169925, 'theta': -0.12879367411897888, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:53 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6332010557674982, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.03987783381831478, 'vega': 0.13602570750590726, 'theta': -0.12593219596348165, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:53 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.26790709608835234, 'delta': 0.6302743654236839, 'optPrice': 5.5, 'pvDividend': 0.0, 'gamma': 0.03889428648353465, 'vega': 0.1361123349000719, 'theta': -0.1292869982475731, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:53 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 12, 'tickAttrib': 0, 'impliedVol': 0.2668252751393053, 'delta': 0.6306936132555145, 'optPrice': 5.389999866485596, 'pvDividend': 0.0, 'gamma': 0.03903590480181041, 'vega': 0.13610005708169925, 'theta': -0.12879367411897888, 'undPrice': 172.52999877929688}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 306}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 177}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'P'}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.49, 'attrib': 1610390070672: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 1}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198526}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390070672: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.5, 'attrib': 1610390075904: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 17}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 6}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 17}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PQNUH'}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.5, 'attrib': 1610390073936: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.51, 'attrib': 1610390076048: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 37}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 4}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 37}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'H'}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVXZNUH'}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 4915}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 6878}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 4915}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 6878}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 44}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 197}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'NBQTHEPD'}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 84, 'value': 'D'}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 4, 'price': 172.5, 'attrib': 1610390070672: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 3}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 5, 'size': 3}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 8, 'size': 198529}
+10/04/2023 08:44:53 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390076048: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 33}
+10/04/2023 08:44:53 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 22}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKMPQVZNUH'}
+10/04/2023 08:44:53 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'JKPQVZNUH'}
+10/04/2023 08:44:53 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713822807679052, 'delta': -0.5138134725608935, 'optPrice': 20.435214710335337, 'pvDividend': 0.0, 'gamma': 0.008865148369920679, 'vega': 0.31794415262411135, 'theta': -0.5329493412976152, 'undPrice': 377.5}
+10/04/2023 08:44:54 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.5713822807679052, 'delta': 0.4884600897888727, 'optPrice': 16.294370340454446, 'pvDividend': 0.0, 'gamma': 0.008797606223814354, 'vega': 0.31820574054529516, 'theta': -0.585910271235062, 'undPrice': 377.5}
+10/04/2023 08:44:54 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6306134878887156, 'optPrice': 5.433775162741102, 'pvDividend': 0.0, 'gamma': 0.03945513457272777, 'vega': 0.13607397459058834, 'theta': -0.12761243047746612, 'undPrice': 172.5}
+10/04/2023 08:44:54 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6306134878887156, 'optPrice': 5.433775162741102, 'pvDividend': 0.0, 'gamma': 0.03945513457272777, 'vega': 0.13607397459058834, 'theta': -0.12761243047746612, 'undPrice': 172.5}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.5, 'attrib': 1610390075472: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 20}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 4}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQZNUH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 0, 'size': 301}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 3, 'tickType': 3, 'size': 174}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390075952: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 40}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.5, 'attrib': 1610390075904: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 40}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 1}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'AKPQVXZNUH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'N'}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 8, 'size': 1053}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 8, 'size': 1053}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 5, 'tickType': 45, 'value': '1696432487'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 4, 'tickType': 45, 'value': '1696432487'}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 5, 'tickType': 4, 'price': 5.44, 'attrib': 1610390075904: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 31}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 5, 'size': 31}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 4, 'tickType': 4, 'price': 5.44, 'attrib': 1610390075904: CanAutoExecute: 0, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 31}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 5, 'size': 31}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.5, 'attrib': 1610390073936: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 2, 'price': 172.51, 'attrib': 1610390073936: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 5}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 6}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'PZNH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KQZUH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 0, 'size': 5858}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 5, 'tickType': 3, 'size': 7369}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 0, 'size': 5858}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 4, 'tickType': 3, 'size': 7369}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 0, 'size': 69}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 2, 'tickType': 3, 'size': 205}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 32, 'value': 'NBQZTHEPDU'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 2, 'tickType': 33, 'value': 'ACIXNBQZWTHEPDU'}
+10/04/2023 08:44:54 PM INFO ANSWER tickPrice {'reqId': 1, 'tickType': 1, 'price': 172.49, 'attrib': 1610390073696: CanAutoExecute: 1, PastLimit: 0, PreOpen: 0}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 0, 'size': 22}
+10/04/2023 08:44:54 PM INFO ANSWER tickSize {'reqId': 1, 'tickType': 3, 'size': 14}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 32, 'value': 'KPQVZNUH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickString {'reqId': 1, 'tickType': 33, 'value': 'KPQVZNH'}
+10/04/2023 08:44:54 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5651333628994052, 'delta': -0.5145045020041488, 'optPrice': 20.200000762939453, 'pvDividend': 0.0, 'gamma': 0.008963789696714502, 'vega': 0.31797032760500343, 'theta': -0.5267976973111931, 'undPrice': 377.5}
+10/04/2023 08:44:55 PM INFO ANSWER tickOptionComputation {'reqId': 3, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5745693480598818, 'delta': -0.5134646387663818, 'optPrice': 20.5, 'pvDividend': 0.0, 'gamma': 0.008815668177755727, 'vega': 0.3179324051999082, 'theta': -0.5360864451031585, 'undPrice': 377.5}
+10/04/2023 08:44:55 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6304457405823733, 'optPrice': 5.43100054823079, 'pvDividend': 0.0, 'gamma': 0.03946266485917867, 'vega': 0.13607483788631747, 'theta': -0.1276239145632494, 'undPrice': 172.49569702148438}
+10/04/2023 08:44:55 PM INFO ANSWER tickOptionComputation {'reqId': 4, 'tickType': 13, 'tickAttrib': 0, 'impliedVol': 0.26405881380472895, 'delta': 0.6304457405823733, 'optPrice': 5.43100054823079, 'pvDividend': 0.0, 'gamma': 0.03946266485917867, 'vega': 0.13607483788631747, 'theta': -0.1276239145632494, 'undPrice': 172.49569702148438}
+10/04/2023 08:44:55 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.5687777395276679, 'delta': 0.48818654721626986, 'optPrice': 16.25, 'pvDividend': 0.0, 'gamma': 0.00883775889757014, 'vega': 0.3182167812482142, 'theta': -0.5833423104799004, 'undPrice': 377.5}
+10/04/2023 08:44:56 PM INFO ANSWER tickOptionComputation {'reqId': 2, 'tickType': 11, 'tickAttrib': 0, 'impliedVol': 0.5782063821956159, 'delta': 0.48916975294148224, 'optPrice': 16.5, 'pvDividend': 0.0, 'gamma': 0.008694106723714358, 'vega': 0.3181770613000623, 'theta': -0.592637751141913, 'undPrice': 377.5}
+10/04/2023 08:44:56 PM INFO ANSWER tickOptionComputation {'reqId': 5, 'tickType': 10, 'tickAttrib': 0, 'impliedVol': 0.26054800816165324, 'delta': 0.6318464628702452, 'optPrice': 5.400000095367432, 'pvDividend': 0.0, 'gamma': 0.03993936796874085, 'vega': 0.1360331312229901, 'theta': -0.12602364946296743, 'undPrice': 172.49569702148438}
+10/04/2023 08:44:56 PM INFO disconnecting
+10/04/2023 08:44:56 PM INFO ANSWER connectionClosed {}
