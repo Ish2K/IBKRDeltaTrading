@@ -9,5 +9,8 @@
             "hedge_frequency":30,
             "stop_hedging": false
         }
-    }
+    },
+    "default_hedge_frequency": 5,
+    "default_target_delta": 0,
+    "default_stop_hedging": false
 }

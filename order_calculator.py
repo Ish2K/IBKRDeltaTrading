@@ -21,62 +21,55 @@ redis_client = redis.Redis(
 with open('input.json', 'r') as f:
     config = json.load(f)
 
-# set start time to 10am Eastern
+def run_order_calculator():
 
-start_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=10, minute=0, second=0, microsecond=0)
-end_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=15, minute=56, second=0, microsecond=0)
+    # set start time to 10am Eastern
 
-logging.basicConfig(filename='./logs/order_calculator.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s',\
-                    datefmt='%m/%d/%Y %I:%M:%S %p', filemode='w')
+    start_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=10, minute=0, second=0, microsecond=0)
+    end_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=15, minute=56, second=0, microsecond=0)
 
-current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
+    logging.basicConfig(filename='./logs/order_calculator.log', level=logging.INFO, format='%(asctime)s %(levelname)s %(message)s',\
+                        datefmt='%m/%d/%Y %I:%M:%S %p', filemode='w')
 
-while(current_time < start_time):
-    time.sleep(1)
     current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
 
-logging.info('Order calculator started')
-
-prev_position = dict()
-
-while(True):
-    try:
-        stock_position = pd.read_csv(config['data_path'] + 'stock_position.csv').drop_duplicates()
-        position_option = pd.read_csv(config['data_path'] + 'position_option.csv').drop_duplicates()
-    except:
+    while(current_time < start_time):
         time.sleep(1)
-        continue
-    stock_position = calculate_stock_position(stock_position)
-    position_option = calculate_option_delta(position_option)
+        current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
 
-    # merge on symbol
-    order_calculator = position_option.merge(stock_position, on=['symbol'], how='outer')
+    logging.info('Order calculator started')
 
-    # drop rows where delta is null
-    order_calculator = order_calculator[order_calculator['delta'].notnull()]
+    while(True):
+        try:
+            stock_position = pd.read_csv(config['data_path'] + 'stock_position.csv').drop_duplicates()
+            position_option = pd.read_csv(config['data_path'] + 'position_option.csv').drop_duplicates()
+        except:
+            time.sleep(1)
+            continue
+        stock_position = calculate_stock_position(stock_position)
+        position_option = calculate_option_delta(position_option, config)
+        # position_option["targe_delta"] = position_option.apply(lambda x: config['trading'][x['symbol']]['target_delta'] if (x['symbol'] in config['trading']) else 0, axis=1)
 
-    order_calculator = order_calculator.groupby(['symbol']).agg({'idealPosition': 'sum', 'position':'sum'}).reset_index()
+        # merge on symbol
+        order_calculator = position_option.merge(stock_position, on=['symbol'], how='outer')
 
-    order_calculator = order_calculator.merge(stock_position, on=['symbol'], how='outer')
+        # drop rows where delta is null
+        order_calculator = order_calculator[order_calculator['delta'].notnull()]
 
-    order_calculator['stock_position'] = order_calculator['stock_position'].fillna(0)
+        order_calculator = (calculate_adjustment(order_calculator).to_dict('records'))
+        print(order_calculator)
 
-    order_calculator = (calculate_adjustment(order_calculator).to_dict('records'))
+        for rec in order_calculator:
 
-    for rec in order_calculator:
+            if(rec['adjustment']==0):
+                continue
+            msg = {
+                "symbol": rec['symbol'],
+                "order_size": rec['adjustment'],
+                "closed_position": rec['idealPosition']==0,
+            }
 
-        if(rec['symbol'] not in prev_position):
-            prev_position[rec['symbol']] = rec['position']
-        
-        msg = {
-            "symbol": rec['symbol'],
-            "order_size": rec['adjustment'],
-            "new_position": rec['position'] != prev_position[rec['symbol']]
-        }
+            redis_client.publish(os.getenv('REDIS_ORDER_CALCULATOR_CHANNEL'), json.dumps(msg))
 
-        prev_position[rec['symbol']] = rec['position']
-
-        redis_client.publish(os.getenv('REDIS_ORDER_CALCULATOR_CHANNEL'), json.dumps(msg))
-    
-    time.sleep(1)
+            time.sleep(1)
 

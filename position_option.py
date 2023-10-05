@@ -44,10 +44,11 @@ def monitor_position():
                 conditions = (position_option['symbol']==msg['symbol']) & (position_option['strike']==msg['strike']) & (position_option['lastTradeDateOrContractMonth']==msg['lastTradeDateOrContractMonth']) & (position_option['contractRight']==msg['contractRight'])
                 position_option.loc[conditions, 'delta'] = msg['delta']
                 position_option.to_csv(path, index=False, mode='w')
-        
+    
+def run_position_option():
 
-redis_thread = threading.Thread(target=monitor_position, daemon=True)
-redis_thread.start()
+    redis_thread = threading.Thread(target=monitor_position, daemon=True)
+    redis_thread.start()
 
-time.sleep(40)
-pubsub.close()
+    time.sleep(40)
+    pubsub.close()

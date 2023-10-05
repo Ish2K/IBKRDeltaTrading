@@ -61,9 +61,10 @@ def monitor_position():
                 process_msg = process(msg, position_option_mapper[msg['reqId']])
                 redis_client.publish(os.getenv('REDIS_POSITION_OPTION_CHANNEL'), json.dumps(process_msg))
 
+def run_position_analysis():
 
-redis_thread = threading.Thread(target=monitor_position, daemon=True)
-redis_thread.start()
+    redis_thread = threading.Thread(target=monitor_position, daemon=True)
+    redis_thread.start()
 
-time.sleep(40)
-pubsub.close()
+    time.sleep(40)
+    pubsub.close()

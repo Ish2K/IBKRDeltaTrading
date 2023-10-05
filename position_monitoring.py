@@ -115,23 +115,25 @@ def Stock_order(symbol):
     contract.primaryExchange = "NASDAQ"
     return contract
 
-app = IBapi()
-app.connect(host=host, port=port, clientId=client_id)
+def run_position_monitoring():
 
-app.nextorderId = None
+    app = IBapi()
+    app.connect(host=host, port=port, clientId=client_id)
 
-#Start the socket in a thread
-api_thread = threading.Thread(target=run_loop, daemon=True)
-api_thread.start()
+    app.nextorderId = None
 
-#Check if the API is connected via orderid
-while True:
-	if isinstance(app.nextorderId, int):
-		print('connected')
-		break
-	else:
-		print('waiting for connection')
-		time.sleep(1)
+    #Start the socket in a thread
+    api_thread = threading.Thread(target=run_loop, daemon=True)
+    api_thread.start()
 
-time.sleep(40)
-app.disconnect()
+    #Check if the API is connected via orderid
+    while True:
+        if isinstance(app.nextorderId, int):
+            print('connected')
+            break
+        else:
+            print('waiting for connection')
+            time.sleep(1)
+
+    time.sleep(40)
+    app.disconnect()
