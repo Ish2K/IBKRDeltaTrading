@@ -10,3 +10,4 @@ venv/
 *.pdf
 .env
 *.log
+*.pem

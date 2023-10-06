@@ -67,7 +67,7 @@ class IBapi(EWrapper, EClient):
                     'strike': contract.strike,
                     'lastTradeDateOrContractMonth': contract.lastTradeDateOrContractMonth,
                     'contractRight': contract.right,
-                    'position': position
+                    'position': float(position)
                 }
             else:
                 reqId = self.nextorderId
@@ -79,7 +79,7 @@ class IBapi(EWrapper, EClient):
                     'strike': contract.strike,
                     'lastTradeDateOrContractMonth': contract.lastTradeDateOrContractMonth,
                     'contractRight': contract.right,
-                    'position': position
+                    'position': float(position)
                 }
                 contract.exchange = 'SMART'
                 self.reqMktData(reqId, contract, "", False, False, [])
