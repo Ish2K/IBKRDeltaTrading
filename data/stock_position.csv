@@ -1,2 +1,0 @@
-time,reqId,type,account,symbol,secType,currency,contractRight,lastTradeDateOrContractMonth,strike,position,avgCost,deltaNeutralContract
-2023-10-05 11:50:00,1,position,DU7224701,AAPL,STK,USD,,,0.0,85.0,172.2482353,

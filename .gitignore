@@ -9,3 +9,4 @@ tests/
 venv/
 *.pdf
 .env
+*.log
