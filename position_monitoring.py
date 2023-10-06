@@ -55,7 +55,7 @@ class IBapi(EWrapper, EClient):
 
         # logging.info("Position. Account: %s, Symbol: %s, SecType: %s, Currency: %s, ContractRight: %s, Position: %s, Avg cost: %s, Delta Neutral Combo: %s", account, contract.symbol, contract.secType, contract.currency, contract.right, str(position), str(avgCost), contract.deltaNeutralContract)
         if((contract.secType == 'STK')):
-            self.stock_position[contract.symbol] = position
+            self.stock_position[contract.symbol] = float(position)
             # redis_client.publish(os.getenv('REDIS_STOCK_POSITIONS'), json.dumps(self.stock_position))
 
         elif((contract.secType == 'OPT')):
