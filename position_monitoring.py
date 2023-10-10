@@ -2,6 +2,8 @@ from ibapi.client import EClient
 from ibapi.wrapper import EWrapper
 from ibapi.contract import Contract
 from ibapi.order import *
+from ibapi.ticktype import *
+from ibapi.tag_value import TagValue
 
 import threading
 import time
@@ -14,6 +16,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import pytz
 import datetime
+from close_positions import close_all_positions
 
 with open('input.json', 'r') as f:
     config = json.load(f)
@@ -57,6 +60,8 @@ class IBapi(EWrapper, EClient):
         if((contract.secType == 'STK')):
             self.stock_position[contract.symbol] = float(position)
             # redis_client.publish(os.getenv('REDIS_STOCK_POSITIONS'), json.dumps(self.stock_position))
+            # self.reqMktData(self.nextorderId, contract, "", False, False, [])
+            # self.nextorderId += 1
 
         elif((contract.secType == 'OPT')):
             contract_details_str = contract.symbol + "_" + contract.lastTradeDateOrContractMonth + "_" + str(contract.strike) + "_" + contract.right
@@ -159,6 +164,9 @@ def process_order(order_data):
     order.action = 'BUY' if order_size > 0 else 'SELL'
     order.orderType = 'MARKET'
     order.totalQuantity = int(abs(order_size))
+    order.algoStrategy = "Adaptive"
+    order.algoParams = []
+    order.algoParams.append(TagValue("adaptivePriority", "Urgent"))
     order.eTradeOnly = False
     order.firmQuoteOnly = False
 
@@ -238,3 +246,5 @@ print("Seconds left to market close: " + str((end_time - current_time).seconds))
 
 time.sleep(int(seconds_left))
 app.disconnect()
+
+close_all_positions()
