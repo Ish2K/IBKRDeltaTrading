@@ -26,6 +26,7 @@ class IBapi(EWrapper, EClient):
     def __init__(self):
         EClient.__init__(self, self)
         self.nextorderId = 100
+        self.all_positions = []
 
     def nextValidId(self, orderId: int):
         super().nextValidId(orderId)
@@ -34,38 +35,40 @@ class IBapi(EWrapper, EClient):
         logging.info('The next valid order id is: %s', self.nextorderId)
         self.reqPositions()
     
-    def close_position(self, contract, position):
+    def close_positions(self):
 
-        contract.exchange = "SMART"
-        order = Order()
-        order.action = 'BUY' if position < 0 else 'SELL'
-        order.orderType = 'MARKET'
-        order.totalQuantity = int(abs(position))
-        order.algoStrategy = "Adaptive"
-        order.algoParams = []
-        order.algoParams.append(TagValue("adaptivePriority", "Urgent"))
-        order.eTradeOnly = False
-        order.firmQuoteOnly = False
+        for position in self.all_positions:
+            contract = position[0]
+            position = position[1]
 
-        self.placeOrder(self.nextorderId, contract, order)
-        self.nextorderId += 1
+            contract.exchange = "SMART"
+            order = Order()
+            order.action = 'BUY' if position < 0 else 'SELL'
+            order.orderType = 'MARKET'
+            order.totalQuantity = int(abs(position))
+            order.algoStrategy = "Adaptive"
+            order.algoParams = []
+            order.algoParams.append(TagValue("adaptivePriority", "Urgent"))
+            order.eTradeOnly = False
+            order.firmQuoteOnly = False
+
+            self.placeOrder(self.nextorderId, contract, order)
+            self.nextorderId += 1
 
     def position(self, account: str, contract: Contract, position: float, avgCost: float):
         super().position(account, contract, position, avgCost)
 
         # logging.info("Position. Account: %s, Symbol: %s, SecType: %s, Currency: %s, ContractRight: %s, Position: %s, Avg cost: %s, Delta Neutral Combo: %s", account, contract.symbol, contract.secType, contract.currency, contract.right, str(position), str(avgCost), contract.deltaNeutralContract)
-        if((contract.secType == 'STK')):
+        if((contract.secType == 'STK') or (contract.secType == 'OPT')):
             if(abs(position) >= 1):
-                self.close_position(contract, position)
-
-        elif((contract.secType == 'OPT')):
-            if(abs(position) >= 1):
-                self.close_position(contract, position)
+                # self.close_position(contract, position)
+                self.all_positions.append([contract, position])
 
     def positionEnd(self):
         super().positionEnd()
         logging.info("PositionEnd")
         self.cancelPositions()
+        self.close_positions()
         # self.reqPositions()
         # print("PositionEnd")
 
