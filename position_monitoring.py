@@ -207,14 +207,15 @@ def process_message(message: dict):
         if(order_data[symbol]['stop_hedging']):
             continue
         # add datetime check here for frequency
-        if((current_minute % order_data[symbol]['hedge_frequency']) == 0):
+        current_time_delta = (current_time - trading_start_time).seconds // 60
+        if((current_time_delta % order_data[symbol]['hedge_frequency']) == 0):
             process_order(order_data[symbol])
             redis_client.set(symbol, 1)
             redis_client.expire(symbol, 60)
             continue
 
 start_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=9, minute=30, second=0, microsecond=0)
-trading_start_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=10, minute=0, second=0, microsecond=0)
+trading_start_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=9, minute=59, second=0, microsecond=0)
 end_time = datetime.datetime.now(pytz.timezone('US/Eastern')).replace(hour=15, minute=56, second=0, microsecond=0)
 current_time = datetime.datetime.now(pytz.timezone('US/Eastern'))
 
